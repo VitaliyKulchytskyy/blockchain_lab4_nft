@@ -1,0 +1,101 @@
+/* Global */
+body {
+    padding-left: 10px;
+}
+
+/* NFT blocks */
+div.NFT {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.NFTContainer {
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block; 
+    margin: 12px;
+    width: 45%;
+}
+
+img.NFT {
+    width: 100%;
+}
+
+button.NFT {
+    width: 100%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button.NFT:hover {
+    background-color: #4CAF00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+
+/* Wallet */
+table.WalletHead {
+    width: 100%;
+    /*border: 1px solid;*/
+    align-self: left;
+}
+#head {
+    font-family: Lobster;
+    font-size: 60px;
+    align-content: center;
+}
+
+div.Wallet {
+    font: 600 100% "Lato", sans-serif;
+    padding-bottom: 4%;
+}
+
+button.Wallet {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+}
+
+button.Wallet {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #48B792;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+button.Wallet:hover {
+  background-color: #65B79C;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}

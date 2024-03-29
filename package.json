@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "ethers": "^5.7.1"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^2.0.4"
+  }
+}
